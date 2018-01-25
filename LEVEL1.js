@@ -30,7 +30,7 @@ var LEVEL1 = {
               
            		 //Score
 			scoretx = game.add.text(10, 10, '0',{
-				font: "12px Arial",
+				font: "10px Arial",
 				fill: "#fcfcfc",
 				aligment: "center"
 			});
@@ -40,8 +40,8 @@ var LEVEL1 = {
 			score = 0;
 			
 			//Lives
-			livestx = game.add.text(200, 10, '5',{
-				font: "12px Arial",
+			livestx = game.add.text(10, 20, '2',{
+				font: "10px Arial",
 				fill: "#ffffff",
 				aligment: "center"
 			});
